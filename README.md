@@ -31,9 +31,4 @@ edankwa14@gmail.com
 N/A
 
 ### Technologies
-Javascript
-Node.js
-MongoDB
-Express.js
-Insomnia
-Mongoose
+Javascript, Node.js, MongoDB, Express.js, Insomnia, Mongoose
