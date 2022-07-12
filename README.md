@@ -29,3 +29,11 @@ edankwa14@gmail.com
 
 ### Contributors
 N/A
+
+### Technologies
+Javascript
+Node.js
+MongoDB
+Express.js
+Insomnia
+Mongoose
