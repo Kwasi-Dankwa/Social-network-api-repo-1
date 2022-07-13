@@ -47,3 +47,5 @@ Javascript, Node.js, MongoDB, Express.js, Insomnia, Mongoose
 ```
     $ npm start
 ```
+### Usage
+Insomnia is used to test the API routes after the mongoose models are synched with MongoDB.
