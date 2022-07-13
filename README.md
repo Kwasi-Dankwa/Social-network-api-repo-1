@@ -32,3 +32,18 @@ N/A
 
 ### Technologies
 Javascript, Node.js, MongoDB, Express.js, Insomnia, Mongoose
+
+## Installation:  
+1. Download the repo files from the link below
+2. You must have mongoDB and Compass installed
+3. Run the following at the CLI
+```
+    - npm init -y
+    - npm install express
+    - npm install mongoose
+    - npm install moment
+```
+4. Start the server
+```
+    $ npm start
+```
