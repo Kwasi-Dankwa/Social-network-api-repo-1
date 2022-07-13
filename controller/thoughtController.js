@@ -64,7 +64,7 @@ module.exports = {
             });
     },
     //delete a thought- remove thought by its id
-    deleteApplication(req, res) {
+    deleteThought(req, res) {
         Application.findOneAndRemove({ _id: req.params.thoughtId })
             .then((thought) =>
                 !thought
