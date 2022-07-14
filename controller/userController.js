@@ -11,9 +11,10 @@ module.exports = {
   //Get single user
   getSingleUser(req, res) {
     User.findOne({ _id: req.params.userId })
-      .populate("thoughts")
-      .populate("friends")
-      //hide version key
+      .populate({
+        path: "thoughts",
+        select: ("-__v")
+      })
       .select("-__v")
       .then((user) =>
         !user
