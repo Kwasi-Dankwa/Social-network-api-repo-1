@@ -52,3 +52,6 @@ Insomnia is used to test the API routes after the mongoose models are synched wi
 
 ### Screenshot
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/104780360/178887829-a6d5834b-a7a9-4965-bc4b-e0d53bdf24a1.png">
+<br>
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104780360/178888023-707d4cab-42ea-4f8a-9575-2fcd2894857e.png">
+
