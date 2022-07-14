@@ -56,7 +56,7 @@ module.exports = {
             .then((thought) =>
                 !thought
                     ? res.status(404).json({ message: 'No thought with this id!' })
-                    : res.json(user)
+                    : res.json(thought)
             )
             .catch((err) => {
                 console.log(err);
@@ -65,12 +65,12 @@ module.exports = {
     },
     //delete a thought- remove thought by its id
     deleteThought(req, res) {
-        Application.findOneAndRemove({ _id: req.params.thoughtId })
+        Thought.findOneAndRemove({ _id: req.params.thoughtId })
             .then((thought) =>
                 !thought
                     ? res.status(404).json({ message: 'No thought with this id!' })
                     : User.findOneAndUpdate(
-                        { applications: req.params.applicationId },
+                        { thought: req.params.thoughtId },
                         { $pull: { thoughts: req.params.thoughtId } },
                         { new: true }
                     )
