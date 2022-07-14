@@ -49,3 +49,6 @@ Javascript, Node.js, MongoDB, Express.js, Insomnia, Mongoose
 ```
 ### Usage
 Insomnia is used to test the API routes after the mongoose models are synched with MongoDB.
+
+### Screenshot
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/104780360/178887829-a6d5834b-a7a9-4965-bc4b-e0d53bdf24a1.png">
